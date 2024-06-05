@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>JavaScript demo</title>
+
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+
+<link rel="stylesheet" href="style.css"> 
+
+</head>
+
+<body>
+  <div class="container">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="text" id="gmail" placeholder="abcd@gmail.com">
+    <button type="button" class="btn-save" onclick="saveData()">Save</button>
+  </div>
+
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <td>No.</td>
+          <td>Name</td>
+          <td>Phone</td>
+          <td>Gmail</td>
+          <td>Date</td>
+          <td>Actions</td>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Rows will be inserted here by JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
